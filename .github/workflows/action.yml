@@ -1,16 +1,26 @@
-name: Waka Readme
+name: Progress Bar CI
 
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 12am UTC
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'
 
 jobs:
-  update-readme:
-    name: Update this repo's README
+  build:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+    - uses: actions/checkout@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14.x'
+    - name: Update README.md
+      run: node index.js > README.md
+    - name: Commit change & Push
+      run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -am "bot: update README.md automatically"
+          git push
