@@ -7,8 +7,8 @@
 - 🎹 I like music. 
 - 📫 How to reach me: DM me at instagram [@fiqryq](https://instagram.com/fiqryq)
 - 📱 Visit my [playstore](https://tinyurl.com/suncodeid)
-- ⏳ Year progress { ███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 26.44 %
-- ⏰ Updated on Wed, 07 Apr 2021 12:29:02 GMT
+- ⏳ Year progress { ███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 26.51 %
+- ⏰ Updated on Wed, 07 Apr 2021 18:34:56 GMT
 
 ### Connect with me
 [![Instagram Badge](https://img.shields.io/badge/-@fiqryq-purple?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/fiqryq/)](https://instagram.com/fiqryq)
